@@ -1,14 +1,14 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 
-import LazyState from './src/LazyState';
-import CustomHook from './src/CustomHook';
-import ErrorBoundaryScene from './src/ErrorBoundaryScene';
+import LazyStateScene from './src/scenes/LazyStateScene';
+import CustomHookScene from './src/scenes/CustomHookScene';
+import ErrorBoundaryScene from './src/scenes/ErrorBoundaryScene';
 
 const App = () => (
   <SafeAreaView style={{flex: 1}}>
-    {/* <LazyState/> */}
-    {/* <CustomHook/> */}
+    {/* <LazyStateScene/> */}
+    {/* <CustomHookScene/> */}
     {/* <ErrorBoundaryScene/> */}
   </SafeAreaView>
 );

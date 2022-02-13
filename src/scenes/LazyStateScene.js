@@ -11,7 +11,7 @@ const getNotLazyState = () => {
   return 0;
 };
 
-const LazyState = () => {
+const LazyStateScene = () => {
   const [number, setNumber] = React.useState(0);
   const [lazyState, setLazyState] = React.useState(getLazyState);
   const [notLazyState, setNotLazyState] = React.useState(getNotLazyState())
@@ -55,5 +55,5 @@ const styles = StyleSheet.create({
     },
 });
  
- export default LazyState;
+ export default LazyStateScene;
  

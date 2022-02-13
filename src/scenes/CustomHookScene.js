@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
-import useDarkMode from './utils/useDarkMode';
+import useDarkMode from '../utils/useDarkMode';
 
-const CustomHook = () => {
+const CustomHookScene = () => {
   const [isDarkMode, handleChangeDarkMode] = useDarkMode();
   
   return (
@@ -31,5 +31,5 @@ const CustomHook = () => {
   );
 };
 
- export default CustomHook;
+ export default CustomHookScene;
  
